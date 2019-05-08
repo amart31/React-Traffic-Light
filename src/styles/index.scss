@@ -1,0 +1,22 @@
+
+
+#container{
+    background-color: black;
+    width: 66px;
+    height: 178px;
+    margin-left: 50px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.light {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border-radius: 50%;
+  padding: 4px;
+  cursor: pointer;
+  &.red { background-color: #990000;}
+  &.yellow { background-color: #CC6600;}
+  &.green  { background-color: #009933;}
+  &.selected{ box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
